@@ -17,4 +17,4 @@ reclame_tekst3 = (reclame_tekst2.upper())
 
 reclame_tekst4 = ['VANDAAG', 'IN', 'DE', 'AANBIEDING:', 'VANILLE-IJS', '1 LITER', 'SLECHTS', '€2.40']
 for el in reclame_tekst4:
-    print(el)
+    print(el.lower())
