@@ -9,6 +9,7 @@ v = 4
 c = 5
 aanbieding = a * 0.8 
 
-reclame_tekst = (f"Vandaag in de aanbieiding: vanille-ijs, 1 liter - slechts €{aanbieding}")
+reclame_tekst = (f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts €{aanbieding}")
 
 print(reclame_tekst)
+  
