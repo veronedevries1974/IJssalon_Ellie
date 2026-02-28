@@ -13,5 +13,7 @@ reclame_tekst = (f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts €{
 
 reclame_tekst2 = reclame_tekst[:62]
 
-print(reclame_tekst2)
+reclame_tekst3 = (reclame_tekst2.upper())
+
+print(reclame_tekst3)
   
