@@ -19,7 +19,7 @@ def mijn_functie_2(getallen_lijst):
 print(mijn_functie_2([12.3, 12.2, 10.5, 100.20]))
 
 
-#na lang zoeken en denken kwam ik tot bovenstaande functie 2. de berekening van 100.20 gaat nog niet goed. 
+#Na lang zoeken en denken kwam ik tot bovenstaande functie 2. De berekening van 100.20 gaat nog niet goed. 
  
         
 
