@@ -38,3 +38,14 @@ def gemiddelde(mijn_lijst):
     
     return resultaten
 print(gemiddelde([220, 430, 125, 160, 205, 90, 345])) 
+    
+def meervoudig(invoer_lijst):
+    
+    invoer_lijst = 10, 5, 3, 2, 1, 2, 9
+    laag = min(invoer_lijst)
+    hoog = max(invoer_lijst)
+    resultaten = f"Hoogste waarde is {hoog} en laagste waarde is {laag}"
+    
+    return resultaten
+
+print(meervoudig([10, 5, 3, 2, 1, 2, 9]))
