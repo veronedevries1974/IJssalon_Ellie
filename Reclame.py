@@ -15,3 +15,14 @@ def inkomsten_totaal(inkomsten):
     return resultaten
 
 print(inkomsten_totaal([220, 430, 125, 160, 205, 90, 345]))
+
+def laag_en_hoog(mijn_lijst):
+    
+    mijn_lijst = 220, 430, 125, 160, 205, 90, 345
+    laag = min(mijn_lijst)
+    hoog = max(mijn_lijst)
+    
+    resultaten = (f"Laagste waarde is {laag} en hoogste waarde is {hoog}")
+    
+    return resultaten
+print(laag_en_hoog([220, 430, 125, 160, 205, 90, 345]))
