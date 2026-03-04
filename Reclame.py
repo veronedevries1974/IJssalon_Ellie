@@ -7,7 +7,7 @@ print(aanbieding_1("aardbei", 4, 0.1))
 #een float op twee decimalen laten eindigen {bedrag:.2f}
 
 def inkomsten_totaal(inkomsten):
-    resultaten = []
+    
     inkomsten = 220 + 430 + 125 + 160 + 205 + 90 + 345
     bedrag = inkomsten * 0.09
     
