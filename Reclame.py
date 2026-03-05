@@ -1,3 +1,5 @@
+from Algemene_functies import mijn_functie_2 
+
 def aanbieding_1(smaak="aardbei", prijs=4, korting=0.1): 
     korting = prijs - (prijs * korting)
     uitvoer = f"Vandaag in de aanbieding: emmertje ijs (1 liter) in de smaak {smaak}, van {prijs} euro, voor {korting:.2f} euro."
@@ -49,3 +51,19 @@ def meervoudig(invoer_lijst):
     return resultaten
 
 print(meervoudig([10, 5, 3, 2, 1, 2, 9]))
+
+def laag_en_hoog(lijst):
+    # Geeft de kleinste en grootste waarde terug
+    return [min(lijst), max(lijst)]
+
+#ik heb pas na proberen van opdracht 12 gekeken naar de feedback 11, had eea in te veel stappen en omgedraaid in de functie
+def combinatie(invoer_lijst_2):
+    
+    korte_lijst = laag_en_hoog(invoer_lijst_2)
+    uitvoer = mijn_functie_2(korte_lijst[0], korte_lijst[1])
+    return uitvoer
+
+print(combinatie())
+#ik heb van alles in de printopdracht gezet, kom niet tot de gewenste uitvoer?, waarom korte lijst 0 en 1? hoor graag
+    
+
