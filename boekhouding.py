@@ -1,12 +1,14 @@
 from helper import *
+from presentatie import *
 
-inkomsten = {
+dict_inkomsten = {
     "Aardbeien-ijs-totaal" : 1000,
     "Vanille-ijs-totaal" : 2000,
     "Chocolade-ijs-totaal" : 1500,
     "Waterijsjes-totaal" : 750    
 }
 
-totaal_inkomsten = som(inkomsten)
+totaal_inkomsten = som(dict_inkomsten)
 
-print(totaal_inkomsten)
+presenteer(dict_inkomsten, totaal_inkomsten)
+
