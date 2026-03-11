@@ -1,3 +1,4 @@
+import csv
 from helper import *
 from presentatie import *
 
@@ -11,4 +12,10 @@ dict_inkomsten = {
 totaal_inkomsten = som(dict_inkomsten)
 
 presenteer(dict_inkomsten, totaal_inkomsten)
+
+with open('boekhouding.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile, delimiter=':')
+    for key, value in dict_inkomsten.items():
+        writer.writerow([key, value])
+          
 
